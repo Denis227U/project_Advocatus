@@ -216,8 +216,7 @@ html {
 
 .mainScreen .mainScreen-title {
     padding-bottom: 0;
-    margin-top: 60.5rem;
-
+    margin-top: calc(76vh - 109px);
 }
 
 .mainScreen h1 {
@@ -238,9 +237,13 @@ html {
     font-size: 3.1rem;
 }
 
+.mainScreen .mainScreenBtnWrap {
+    margin-top: calc(80vh - 109px);
+}
+
 .mainScreen .btn {
     padding: 1.9rem 4.3rem;
-    margin: 62.7rem auto 16.3rem;
+    margin: 0 auto;
     border: none;
     transition: .3s;
 }
@@ -799,11 +802,7 @@ ul.nacc li p {
 
     .mainScreen .mainScreen-title {
         padding-bottom: 0;
-        margin-top: 38.5rem;
-    }
-
-    .mainScreen .mainScreenBtnWrap {
-        margin-top: 48.5rem;
+        margin-top: calc(69vh - 109px);
     }
 
     .mainScreen .btn {
