@@ -242,6 +242,11 @@ html {
     padding: 1.9rem 4.3rem;
     margin: 62.7rem auto 16.3rem;
     border: none;
+    transition: .3s;
+}
+
+.mainScreen .btn:hover {
+    background-color: #d1a337;
 }
 
 /*aboutUs*/
@@ -697,6 +702,11 @@ ul.nacc li p {
     margin: 1rem auto 0rem;
     border: none;
     cursor: pointer;
+    transition: .3s;
+}
+
+.formBtn:hover {
+    background-color: #d1a337;
 }
 
 .contact .formMap {
